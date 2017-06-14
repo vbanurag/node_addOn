@@ -1,0 +1,1 @@
+cmd_Release/obj.target/myAddon.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=myAddon.node -o Release/obj.target/myAddon.node -Wl,--start-group Release/obj.target/myAddon/myAddon.o -Wl,--end-group 
